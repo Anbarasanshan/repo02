@@ -41,7 +41,7 @@ fi
 fix-permissions ./
 
 cp -Rf  /tmp/src/*.html  ./
-DATE=${date "+%F"}
+DATE=$(date "+%F")
 echo "$DATE THIS IS ROCKING" >> ./info.html
 
 
