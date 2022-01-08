@@ -40,8 +40,7 @@ fi
 # Fix source directory permissions
 fix-permissions ./
 
-cp -Rf  /tmp/src/*.html  ./
+cp -Rf /tmp/src/*.html  ./
 DATE=$(date "+%F")
-echo "$DATE THIS IS ROCKING" >> ./info.html
-
+echo "$DATE this is 2022" >> ./info.html
 
