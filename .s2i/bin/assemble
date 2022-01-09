@@ -40,6 +40,6 @@ fi
 # Fix source directory permissions
 fix-permissions ./
  cp -Rf /tmp/src/*.html  ./
- DATE=$(date "+%F)
+ DATE=$(date "+%F")
  echo "$DATE your boss" >> ./info.html
 
